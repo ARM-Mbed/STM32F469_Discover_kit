@@ -39,4 +39,4 @@ On this repository we implement the intern ADC for the lecture of the sensor tem
 
 # Note: 
 
-To access to the project files change the branch to develop
+To access to the project files change the branch to [develop](https://github.com/ARM-Mbed/STM32F469_Discover_kit/tree/develop)
