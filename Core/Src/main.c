@@ -122,6 +122,18 @@ int main(void)
     /* USER CODE END WHILE */
 
     /* USER CODE BEGIN 3 */
+	/* Blink all the LEDs, waiting for a while between them */
+	LL_GPIO_TogglePin(LED_Blue_GPIO_Port, LED_Blue_Pin);
+	LL_mDelay(500);
+
+	LL_GPIO_TogglePin(LED_Red_GPIO_Port, LED_Red_Pin);
+	LL_mDelay(500);
+
+	LL_GPIO_TogglePin(LED_Orange_GPIO_Port, LED_Orange_Pin);
+	LL_mDelay(500);
+
+	LL_GPIO_TogglePin(LED_Green_GPIO_Port, LED_Green_Pin);
+	LL_mDelay(500);
   }
   /* USER CODE END 3 */
 }
